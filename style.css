@@ -59,7 +59,19 @@ body, html{
     letter-spacing: 8px;
     text-transform: uppercase;
     text-align: center;
+    opacity: 0;
+    animation: bt;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
    
+}
+@keyframes bt{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .ptext .border{
     background-color: #111;
